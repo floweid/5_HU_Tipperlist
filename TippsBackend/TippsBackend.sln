@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TippsBackend", "TippsBackend\TippsBackend.csproj", "{5C30ECE2-862B-452A-9D83-A71F0546F45A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipsDb", "TipsDb\TipsDb.csproj", "{ABC5CB2F-CF0C-4A87-9340-8BACBDEEADC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C30ECE2-862B-452A-9D83-A71F0546F45A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C30ECE2-862B-452A-9D83-A71F0546F45A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C30ECE2-862B-452A-9D83-A71F0546F45A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C30ECE2-862B-452A-9D83-A71F0546F45A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABC5CB2F-CF0C-4A87-9340-8BACBDEEADC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABC5CB2F-CF0C-4A87-9340-8BACBDEEADC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABC5CB2F-CF0C-4A87-9340-8BACBDEEADC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABC5CB2F-CF0C-4A87-9340-8BACBDEEADC0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

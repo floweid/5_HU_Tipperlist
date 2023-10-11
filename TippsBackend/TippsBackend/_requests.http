@@ -1,0 +1,36 @@
+@baseUrl = http://localhost:5000
+
+
+################################################## Matches
+GET {{baseUrl}}/Matches
+#####
+PUT {{baseUrl}}/Matches/1
+Content-type: application/json
+
+{
+   "goalsShot": 1,
+   "goalsReceived": 1
+}
+#####
+
+################################################## Tippers
+GET {{baseUrl}}/Tippers
+#####
+
+################################################## Tipps
+GET {{baseUrl}}/Tipps/1
+#####
+
+################################################## TipsAdmin
+PUT {{baseUrl}}/TipsAdmin/MatchResults/1
+Content-type: application/json
+
+{
+   "goalsShot": 1,
+   "goalsReceived": 1
+}
+#####
+
+################################################## Values
+GET {{baseUrl}}/Values/Teams
+#####
