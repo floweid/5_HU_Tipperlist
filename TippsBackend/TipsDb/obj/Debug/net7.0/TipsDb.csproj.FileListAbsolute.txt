@@ -1,0 +1,14 @@
+/Users/florianweidenholzer/Desktop/5B/POS/HU/5_HU_Tipperlist/TippsBackend/TipsDb/bin/Debug/net7.0/TipsDb.deps.json
+/Users/florianweidenholzer/Desktop/5B/POS/HU/5_HU_Tipperlist/TippsBackend/TipsDb/bin/Debug/net7.0/TipsDb.runtimeconfig.json
+/Users/florianweidenholzer/Desktop/5B/POS/HU/5_HU_Tipperlist/TippsBackend/TipsDb/bin/Debug/net7.0/TipsDb.dll
+/Users/florianweidenholzer/Desktop/5B/POS/HU/5_HU_Tipperlist/TippsBackend/TipsDb/bin/Debug/net7.0/TipsDb.pdb
+/Users/florianweidenholzer/Desktop/5B/POS/HU/5_HU_Tipperlist/TippsBackend/TipsDb/obj/Debug/net7.0/TipsDb.csproj.AssemblyReference.cache
+/Users/florianweidenholzer/Desktop/5B/POS/HU/5_HU_Tipperlist/TippsBackend/TipsDb/obj/Debug/net7.0/TipsDb.GeneratedMSBuildEditorConfig.editorconfig
+/Users/florianweidenholzer/Desktop/5B/POS/HU/5_HU_Tipperlist/TippsBackend/TipsDb/obj/Debug/net7.0/TipsDb.AssemblyInfoInputs.cache
+/Users/florianweidenholzer/Desktop/5B/POS/HU/5_HU_Tipperlist/TippsBackend/TipsDb/obj/Debug/net7.0/TipsDb.AssemblyInfo.cs
+/Users/florianweidenholzer/Desktop/5B/POS/HU/5_HU_Tipperlist/TippsBackend/TipsDb/obj/Debug/net7.0/TipsDb.csproj.CoreCompileInputs.cache
+/Users/florianweidenholzer/Desktop/5B/POS/HU/5_HU_Tipperlist/TippsBackend/TipsDb/obj/Debug/net7.0/TipsDb.dll
+/Users/florianweidenholzer/Desktop/5B/POS/HU/5_HU_Tipperlist/TippsBackend/TipsDb/obj/Debug/net7.0/refint/TipsDb.dll
+/Users/florianweidenholzer/Desktop/5B/POS/HU/5_HU_Tipperlist/TippsBackend/TipsDb/obj/Debug/net7.0/TipsDb.pdb
+/Users/florianweidenholzer/Desktop/5B/POS/HU/5_HU_Tipperlist/TippsBackend/TipsDb/obj/Debug/net7.0/TipsDb.genruntimeconfig.cache
+/Users/florianweidenholzer/Desktop/5B/POS/HU/5_HU_Tipperlist/TippsBackend/TipsDb/obj/Debug/net7.0/ref/TipsDb.dll
