@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { DataService } from './core/data.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = '5_HU_Tipperlist_Frontend';
+  constructor(public dataService: DataService){}
 }
