@@ -1,5 +1,6 @@
 import { Injectable, computed, effect, signal } from '@angular/core';
-import { MatchDto, TipperDto } from '../swagger';
+import { MatchDto, TipperDto, TippersService } from '../swagger';
+import { HttpClient } from '@angular/common/http';
 
 @Injectable({
   providedIn: 'root'
@@ -8,13 +9,21 @@ export class DataService {
 
   alltippers = signal<TipperDto[]>([]);
   allMatches = signal<MatchDto[]>([]);
-  //categories = computed(()=> {this.alltippers.})
+  categories = computed(() => [...new Set(this.alltippers()
+    .flatMap(x => x.tippingCategoryNames)
+    .sort())]);
 
-  x = signal(0);
-  y = signal(0);
 
-  sum = computed(()=> this.x() + this.y());
-  _ = effect(()=> console.log("Sum changed " + this.x()));
+  //currentUser = computed(() => this.allUsers().singleOrDefault(x => x.name === this.username()));
 
-  constructor() { }
+  _ = effect(()=> console.log(this.alltippers()));
+  __ = effect(()=> console.log(this.categories()));
+
+
+  constructor(private tippersService: TippersService) { 
+    this.tippersService.tippersGet().subscribe(x=> {
+      this.alltippers.set(x);
+      
+    })
+  }
 }
