@@ -8,5 +8,5 @@ import { MatchDto, SingleTipDto, TipDto } from 'src/app/swagger';
 })
 export class MatchResultComponent {
   @Input() match: MatchDto = null!;
-  @Input() tipp: SingleTipDto = null!;
+  //@Input() tipp: SingleTipDto = null!;
 }

@@ -28,7 +28,7 @@
      <app-flag [countryName]="countryName"></app-flag>
     </div>
     <div class="col">
-     <!-- <app-match-result></app-match-result>-->
+      <app-match-result [match]="dataService.allMatches().first()"></app-match-result>
     </div>
   </div>
 </div>
