@@ -1,0 +1,18 @@
+<table class="table">
+    <thead>
+      <tr>
+        
+        <th scope="col">ID</th>
+        <th scope="col">Name</th>
+        <th scope="col">Gruppe</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let tipper of filteredTippers()">
+        <th scope="row">{{tipper.id}}</th>
+        <td>{{tipper.name}}</td>
+        <td>{{tipper.tippingCategoryNames}}</td>
+
+      </tr>
+    </tbody>
+  </table>
