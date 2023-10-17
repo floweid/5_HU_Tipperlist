@@ -7,6 +7,8 @@ import { ApiModule, BASE_PATH } from './swagger';
 import { environment } from './environment';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { FlagComponent } from './shared/flag/flag.component';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,8 @@ import { FormsModule } from '@angular/forms';
     AppRoutingModule,
     ApiModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    SharedModule
   ],
   providers: [
     {provide: BASE_PATH, useValue: environment.apiRoot}

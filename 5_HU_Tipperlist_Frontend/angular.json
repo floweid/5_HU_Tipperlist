@@ -29,7 +29,8 @@
             ],
             "styles": [
               "src/styles.scss",
-              "./node_modules/bootstrap/dist/css/bootstrap.min.css"
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "/Users/florianweidenholzer/Desktop/5B/POS/HU/5_HU_Tipperlist/5_HU_Tipperlist_Frontend/src/assets/phoca-flags.css"
             ],
             "scripts": [
               "./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"

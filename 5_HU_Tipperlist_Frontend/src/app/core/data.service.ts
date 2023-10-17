@@ -1,5 +1,5 @@
 import { Injectable, computed, effect, signal } from '@angular/core';
-import { MatchDto, TipperDto, TippersService } from '../swagger';
+import { MatchDto, MatchesService, TipperDto, TippersService } from '../swagger';
 import { HttpClient } from '@angular/common/http';
 
 @Injectable({
@@ -18,12 +18,16 @@ export class DataService {
 
   _ = effect(()=> console.log(this.alltippers()));
   __ = effect(()=> console.log(this.categories()));
+  ___ = effect(()=> console.log(this.allMatches()));
 
 
-  constructor(private tippersService: TippersService) { 
+  constructor(private tippersService: TippersService, private matchService: MatchesService) { 
     this.tippersService.tippersGet().subscribe(x=> {
       this.alltippers.set(x);
-      
+    });
+
+    this.matchService.matchesGet().subscribe(x=> {
+      this.allMatches.set(x);
     })
   }
 }
