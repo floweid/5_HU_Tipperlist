@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { FlagComponent } from './flag/flag.component';
 import { MatchResultComponent } from './match-result/match-result.component';
 import { TipperNamesComponent } from './tipper-names/tipper-names.component';
+import { TippedMatchesComponent } from './tipped-matches/tipped-matches.component';
+import { NgSignalDirective } from './ngSignal.directive';
 
 
 
@@ -10,7 +12,9 @@ import { TipperNamesComponent } from './tipper-names/tipper-names.component';
   declarations: [
     FlagComponent,
     MatchResultComponent,
-    TipperNamesComponent
+    TipperNamesComponent,
+    TippedMatchesComponent,
+    NgSignalDirective
   ],
   imports: [
     CommonModule
@@ -18,7 +22,9 @@ import { TipperNamesComponent } from './tipper-names/tipper-names.component';
   exports:[
     FlagComponent,
     MatchResultComponent,
-    TipperNamesComponent
+    TipperNamesComponent,
+    TippedMatchesComponent,
+    NgSignalDirective
   ]
 })
 export class SharedModule { }

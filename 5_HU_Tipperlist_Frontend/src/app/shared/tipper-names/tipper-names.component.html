@@ -8,7 +8,7 @@
       </tr>
     </thead>
     <tbody>
-      <tr *ngFor="let tipper of filteredTippers()">
+      <tr (click) =  setTipperId(tipper.id) *ngFor="let tipper of filteredTippers()">
         <th scope="row">{{tipper.id}}</th>
         <td>{{tipper.name}}</td>
         <td>{{tipper.tippingCategoryNames}}</td>

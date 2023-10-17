@@ -21,5 +21,10 @@ export class TipperNamesComponent {
 
   _ = effect(()=> console.log(this.filteredTippers()));
 
+
+  setTipperId(tipperId: number): void{
+    this.dataService.tipperIdSelected.set(tipperId);
+  }
+
   constructor(private dataService: DataService){}
 }
