@@ -8,4 +8,6 @@ import { DataService } from './core/data.service';
 })
 export class AppComponent {
   constructor(public dataService: DataService){}
+
+  countryName: string = "Uru";
 }
