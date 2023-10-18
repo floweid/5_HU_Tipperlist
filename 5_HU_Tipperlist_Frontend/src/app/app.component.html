@@ -29,7 +29,7 @@
     </div>
     <div class="col">
      <!-- <app-match-result [match]="dataService.allMatches().first()"></app-match-result> -->
-     <app-tipped-matches [tipperName]="countryName"></app-tipped-matches>
+     <app-tipped-matches [tipperName]="dataService.currentTipper()"></app-tipped-matches>
     </div>
   </div>
 </div>

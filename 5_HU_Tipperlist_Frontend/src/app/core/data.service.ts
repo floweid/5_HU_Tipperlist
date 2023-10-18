@@ -13,7 +13,11 @@ export class DataService {
     .flatMap(x => x.tippingCategoryNames)
     .sort())]);
     tipperIdSelected = signal(0);
-
+    currentTipper = computed(() => {
+      const tipper = this.alltippers().singleOrDefault(x => x.id === this.tipperIdSelected());
+      return tipper ? tipper.name : '-'; // Replace 'DefaultName' with your desired default value
+    });
+    //.where(x=> x.id == this.tipperIdSelected()).select(x=> x.name)
 
   //currentUser = computed(() => this.allUsers().singleOrDefault(x => x.name === this.username()));
 
@@ -21,6 +25,7 @@ export class DataService {
   __ = effect(()=> console.log(this.categories()));
   ___ = effect(()=> console.log(this.allMatches()));
   ____ = effect(()=> console.log(this.tipperIdSelected()));
+  _____ = effect(()=> console.log(this.currentTipper()));
 
 
   constructor(private tippersService: TippersService, private matchService: MatchesService) { 
